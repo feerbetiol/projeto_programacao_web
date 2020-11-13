@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title-primary">Bem-Vindo</h2>
+                <p class="description description-primary">Entre com suas informações</p>
+                <p class="description description-primary"><i class="fas fa-gamepad"></i></p>
+            </div>
+            <div class="second-column">
+                <h2 class="title title-secondary">Criar conta</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                        <a class="link" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a class="link" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-google-plus-g"></i>
+                            </li>
+                        </a>
+                        <a class="link" href="#">
+                            <li class="item-social-media">
+                                <i class="fab fa-linkedin-in"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <p class="description description-secondary">Registrar com email</p>
+                <form class="form">
+                    <label class="label-input" for="">
+                        <i class="far fa-user icon"></i>
+                        <input type="text" placeholder="Nome" id="nome">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-id-card icon"></i>
+                        <input type="number" placeholder="CPF" id="cpf">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-phone-square-alt icon"></i>
+                        <input type="tel" placeholder="Telefone" id="telefone">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-envelope-square icon"></i>
+                        <input type="email" placeholder="Email" id="email">
+                    </label>
+                    <label class="label-input" for="">
+                        <i class="fas fa-lock icon"></i>
+                        <input type="password" placeholder="Senha" id="senha">
+                    </label>
+                    <button class="btn btn-secondary" id="cadastro">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+        </div>
+        <div id="listagem">
+
+        </div>
+    </div>
+    <script src="./js/cadastro.js"></script>
+</body>
+</html>
